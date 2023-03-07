@@ -18,7 +18,7 @@ void fb(int& x){
     }
 }
 
-int main() {
+int main() {thread ta(fa, ref(x));
 
     // TODO
     // - Setup CMake
