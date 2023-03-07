@@ -38,4 +38,8 @@ int main() {thread ta(fa, ref(x));
 
     ta.join();
     tb.join();
+
+    {
+        // unnecessary change, testing ssh
+    }
 }
